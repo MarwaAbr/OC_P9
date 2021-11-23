@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Nov 10 2021 20:51:45",
+    "testExecutionTimeInMs": 393,
+    "testTotalTimeInMs": 393,
+    "commandTimeInMs": 146,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000000EvgL",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000TaZeUAK",
+      "queueItemId": "7097Q000000saOhQAI",
+      "stackTrace": "Class.AP01Account.updateChiffreAffaire: line 12, column 1\nClass.testUpdateAccountCA.test: line 41, column 1",
+      "message": "System.SObjectException: SObject row was retrieved via SOQL without querying the requested field: Order.AccountId",
+      "asyncApexJobId": "7077Q000000EvgLQAS",
+      "methodName": "test",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000001edKJQAY",
+        "name": "testUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "testUpdateAccountCA"
+      },
+      "runTime": 393,
+      "testTimestamp": "2021-11-10T19:51:48.000+0000",
+      "fullName": "testUpdateAccountCA.test",
+      "diagnostic": {
+        "exceptionMessage": "System.SObjectException: SObject row was retrieved via SOQL without querying the requested field: Order.AccountId",
+        "exceptionStackTrace": "Class.AP01Account.updateChiffreAffaire: line 12, column 1\nClass.testUpdateAccountCA.test: line 41, column 1",
+        "className": "AP01Account",
+        "compileProblem": "",
+        "lineNumber": 12,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

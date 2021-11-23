@@ -1,0 +1,88 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 3,
+    "passing": 2,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "67%",
+    "failRate": "33%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Nov 23 2021 14:27:52",
+    "testExecutionTimeInMs": 1991,
+    "testTotalTimeInMs": 1991,
+    "commandTimeInMs": 107,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000002uVti",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000ThqNUAS",
+      "queueItemId": "7097Q000000sbQDQAY",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002uVtiQAE",
+      "methodName": "test",
+      "outcome": "Pass",
+      "apexLogId": "07L7Q000000p7pqUAA",
+      "apexClass": {
+        "id": "01p7Q000001edKJQAY",
+        "name": "testUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "testUpdateAccountCA"
+      },
+      "runTime": 711,
+      "testTimestamp": "2021-11-23T13:27:53.000+0000",
+      "fullName": "testUpdateAccountCA.test"
+    },
+    {
+      "id": "07M7Q000000ThqOUAS",
+      "queueItemId": "7097Q000000sbQDQAY",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002uVtiQAE",
+      "methodName": "test2",
+      "outcome": "Pass",
+      "apexLogId": "07L7Q000000p7pqUAA",
+      "apexClass": {
+        "id": "01p7Q000001edKJQAY",
+        "name": "testUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "testUpdateAccountCA"
+      },
+      "runTime": 1133,
+      "testTimestamp": "2021-11-23T13:27:54.000+0000",
+      "fullName": "testUpdateAccountCA.test2"
+    },
+    {
+      "id": "07M7Q000000ThqPUAS",
+      "queueItemId": "7097Q000000sbQDQAY",
+      "stackTrace": "Class.testUpdateAccountCA.test3: line 46, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: null, Actual: 21500",
+      "asyncApexJobId": "7077Q000002uVtiQAE",
+      "methodName": "test3",
+      "outcome": "Fail",
+      "apexLogId": "07L7Q000000p7pqUAA",
+      "apexClass": {
+        "id": "01p7Q000001edKJQAY",
+        "name": "testUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "testUpdateAccountCA"
+      },
+      "runTime": 147,
+      "testTimestamp": "2021-11-23T13:27:55.000+0000",
+      "fullName": "testUpdateAccountCA.test3",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Expected: null, Actual: 21500",
+        "exceptionStackTrace": "Class.testUpdateAccountCA.test3: line 46, column 1",
+        "className": "testUpdateAccountCA",
+        "compileProblem": "",
+        "lineNumber": 46,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

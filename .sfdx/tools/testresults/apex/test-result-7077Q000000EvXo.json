@@ -1,0 +1,88 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 3,
+    "passing": 2,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "67%",
+    "failRate": "33%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Nov 10 2021 20:55:34",
+    "testExecutionTimeInMs": 536,
+    "testTotalTimeInMs": 536,
+    "commandTimeInMs": 156,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000000EvXo",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000Taa3UAC",
+      "queueItemId": "7097Q000000saP1QAI",
+      "stackTrace": "Class.AP01Account.updateChiffreAffaire: line 13, column 1\nClass.testUpdateAccountCA.test: line 41, column 1",
+      "message": "System.SObjectException: SObject row was retrieved via SOQL without querying the requested field: Account.AnnualRevenue",
+      "asyncApexJobId": "7077Q000000EvXoQAK",
+      "methodName": "test",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000001edKJQAY",
+        "name": "testUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "testUpdateAccountCA"
+      },
+      "runTime": 348,
+      "testTimestamp": "2021-11-10T19:55:35.000+0000",
+      "fullName": "testUpdateAccountCA.test",
+      "diagnostic": {
+        "exceptionMessage": "System.SObjectException: SObject row was retrieved via SOQL without querying the requested field: Account.AnnualRevenue",
+        "exceptionStackTrace": "Class.AP01Account.updateChiffreAffaire: line 13, column 1\nClass.testUpdateAccountCA.test: line 41, column 1",
+        "className": "AP01Account",
+        "compileProblem": "",
+        "lineNumber": 13,
+        "columnNumber": 1
+      }
+    },
+    {
+      "id": "07M7Q000000TaZyUAK",
+      "queueItemId": "7097Q000000saP2QAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000000EvXoQAK",
+      "methodName": "testGetCurrentUser",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000002OPGJQA4",
+        "name": "tt_UtilControllerTest",
+        "namespacePrefix": "trlhdtips",
+        "fullName": "trlhdtips__tt_UtilControllerTest"
+      },
+      "runTime": 14,
+      "testTimestamp": "2021-11-10T19:55:35.000+0000",
+      "fullName": "trlhdtips__tt_UtilControllerTest.testGetCurrentUser"
+    },
+    {
+      "id": "07M7Q000000TaZzUAK",
+      "queueItemId": "7097Q000000saP2QAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000000EvXoQAK",
+      "methodName": "testResetMyPassword",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000002OPGJQA4",
+        "name": "tt_UtilControllerTest",
+        "namespacePrefix": "trlhdtips",
+        "fullName": "trlhdtips__tt_UtilControllerTest"
+      },
+      "runTime": 174,
+      "testTimestamp": "2021-11-10T19:55:35.000+0000",
+      "fullName": "trlhdtips__tt_UtilControllerTest.testResetMyPassword"
+    }
+  ]
+}

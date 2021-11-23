@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Nov 23 2021 19:08:41",
+    "testExecutionTimeInMs": 405,
+    "testTotalTimeInMs": 405,
+    "commandTimeInMs": 114,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000002uYOh",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000ThsOUAS",
+      "queueItemId": "7097Q000000sbRLQAY",
+      "stackTrace": "Class.TestTriggerCalculMontant.test: line 21, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: null, Actual: 21300",
+      "asyncApexJobId": "7077Q000002uYOhQAM",
+      "methodName": "test",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000003E1CRQA0",
+        "name": "TestTriggerCalculMontant",
+        "namespacePrefix": null,
+        "fullName": "TestTriggerCalculMontant"
+      },
+      "runTime": 405,
+      "testTimestamp": "2021-11-23T18:08:42.000+0000",
+      "fullName": "TestTriggerCalculMontant.test",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Expected: null, Actual: 21300",
+        "exceptionStackTrace": "Class.TestTriggerCalculMontant.test: line 21, column 1",
+        "className": "TestTriggerCalculMontant",
+        "compileProblem": "",
+        "lineNumber": 21,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

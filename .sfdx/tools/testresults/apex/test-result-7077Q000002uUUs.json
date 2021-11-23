@@ -1,0 +1,69 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 2,
+    "passing": 1,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "50%",
+    "failRate": "50%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Nov 23 2021 11:56:15",
+    "testExecutionTimeInMs": 1120,
+    "testTotalTimeInMs": 1120,
+    "commandTimeInMs": 111,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000002uUUs",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000ThgmUAC",
+      "queueItemId": "7097Q000000sbNvQAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002uUUsQAM",
+      "methodName": "test",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000001edKJQAY",
+        "name": "testUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "testUpdateAccountCA"
+      },
+      "runTime": 683,
+      "testTimestamp": "2021-11-23T10:56:18.000+0000",
+      "fullName": "testUpdateAccountCA.test"
+    },
+    {
+      "id": "07M7Q000000ThgnUAC",
+      "queueItemId": "7097Q000000sbNvQAI",
+      "stackTrace": "Class.testUpdateAccountCA.test2: line 32, column 1",
+      "message": "System.DmlException: Update failed. First exception on row 0 with id 8017Q000000bnatQAA; first error: FAILED_ACTIVATION, Une commande doit inclure au moins un produit.: []",
+      "asyncApexJobId": "7077Q000002uUUsQAM",
+      "methodName": "test2",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000001edKJQAY",
+        "name": "testUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "testUpdateAccountCA"
+      },
+      "runTime": 437,
+      "testTimestamp": "2021-11-23T10:56:19.000+0000",
+      "fullName": "testUpdateAccountCA.test2",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Update failed. First exception on row 0 with id 8017Q000000bnatQAA; first error: FAILED_ACTIVATION, Une commande doit inclure au moins un produit.: []",
+        "exceptionStackTrace": "Class.testUpdateAccountCA.test2: line 32, column 1",
+        "className": "testUpdateAccountCA",
+        "compileProblem": "",
+        "lineNumber": 32,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Nov 05 2021 15:48:34",
+    "testExecutionTimeInMs": 380,
+    "testTotalTimeInMs": 380,
+    "commandTimeInMs": 100,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000000EMBE",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000TZUYUA4",
+      "queueItemId": "7097Q000000saAhQAI",
+      "stackTrace": "Class.testUpdateAccountCA.test: line 29, column 1",
+      "message": "System.AssertException: Assertion Failed: 0: Expected: null, Actual: 1500",
+      "asyncApexJobId": "7077Q000000EMBEQA4",
+      "methodName": "test",
+      "outcome": "Fail",
+      "apexLogId": "07L7Q000000ojTNUAY",
+      "apexClass": {
+        "id": "01p7Q000001edKJQAY",
+        "name": "testUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "testUpdateAccountCA"
+      },
+      "runTime": 380,
+      "testTimestamp": "2021-11-05T14:48:34.000+0000",
+      "fullName": "testUpdateAccountCA.test",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: 0: Expected: null, Actual: 1500",
+        "exceptionStackTrace": "Class.testUpdateAccountCA.test: line 29, column 1",
+        "className": "testUpdateAccountCA",
+        "compileProblem": "",
+        "lineNumber": 29,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

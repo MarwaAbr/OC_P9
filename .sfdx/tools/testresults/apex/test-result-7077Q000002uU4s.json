@@ -1,0 +1,69 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 2,
+    "passing": 1,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "50%",
+    "failRate": "50%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Nov 23 2021 11:51:00",
+    "testExecutionTimeInMs": 1310,
+    "testTotalTimeInMs": 1310,
+    "commandTimeInMs": 189,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000002uU4s",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000ThgJUAS",
+      "queueItemId": "7097Q000000sbNWQAY",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002uU4sQAE",
+      "methodName": "test",
+      "outcome": "Pass",
+      "apexLogId": "07L7Q000000p7AoUAI",
+      "apexClass": {
+        "id": "01p7Q000001edKJQAY",
+        "name": "testUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "testUpdateAccountCA"
+      },
+      "runTime": 700,
+      "testTimestamp": "2021-11-23T10:51:01.000+0000",
+      "fullName": "testUpdateAccountCA.test"
+    },
+    {
+      "id": "07M7Q000000ThgKUAS",
+      "queueItemId": "7097Q000000sbNWQAY",
+      "stackTrace": "Class.testUpdateAccountCA.test2: line 34, column 1",
+      "message": "System.AssertException: Assertion Failed",
+      "asyncApexJobId": "7077Q000002uU4sQAE",
+      "methodName": "test2",
+      "outcome": "Fail",
+      "apexLogId": "07L7Q000000p7AoUAI",
+      "apexClass": {
+        "id": "01p7Q000001edKJQAY",
+        "name": "testUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "testUpdateAccountCA"
+      },
+      "runTime": 610,
+      "testTimestamp": "2021-11-23T10:51:02.000+0000",
+      "fullName": "testUpdateAccountCA.test2",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed",
+        "exceptionStackTrace": "Class.testUpdateAccountCA.test2: line 34, column 1",
+        "className": "testUpdateAccountCA",
+        "compileProblem": "",
+        "lineNumber": 34,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

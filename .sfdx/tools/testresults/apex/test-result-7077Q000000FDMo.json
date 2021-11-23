@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Nov 12 2021 15:32:06",
+    "testExecutionTimeInMs": 429,
+    "testTotalTimeInMs": 429,
+    "commandTimeInMs": 115,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000000FDMo",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000TalGUAS",
+      "queueItemId": "7097Q000000saUNQAY",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000000FDMoQAO",
+      "methodName": "test",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000001edKJQAY",
+        "name": "testUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "testUpdateAccountCA"
+      },
+      "runTime": 429,
+      "testTimestamp": "2021-11-12T14:32:06.000+0000",
+      "fullName": "testUpdateAccountCA.test"
+    }
+  ]
+}

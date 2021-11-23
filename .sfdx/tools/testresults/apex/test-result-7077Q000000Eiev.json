@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Nov 09 2021 15:56:17",
+    "testExecutionTimeInMs": 611,
+    "testTotalTimeInMs": 611,
+    "commandTimeInMs": 110,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000000Eiev",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000TaRLUA0",
+      "queueItemId": "7097Q000000saNeQAI",
+      "stackTrace": "Class.AP01Account.ChiffreAffaire: line 21, column 1\nClass.testUpdateAccountCA.test: line 41, column 1",
+      "message": "System.NullPointerException: Argument cannot be null.",
+      "asyncApexJobId": "7077Q000000EievQAC",
+      "methodName": "test",
+      "outcome": "Fail",
+      "apexLogId": "07L7Q000000ooNrUAI",
+      "apexClass": {
+        "id": "01p7Q000001edKJQAY",
+        "name": "testUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "testUpdateAccountCA"
+      },
+      "runTime": 611,
+      "testTimestamp": "2021-11-09T14:56:17.000+0000",
+      "fullName": "testUpdateAccountCA.test",
+      "diagnostic": {
+        "exceptionMessage": "System.NullPointerException: Argument cannot be null.",
+        "exceptionStackTrace": "Class.AP01Account.ChiffreAffaire: line 21, column 1\nClass.testUpdateAccountCA.test: line 41, column 1",
+        "className": "AP01Account",
+        "compileProblem": "",
+        "lineNumber": 21,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

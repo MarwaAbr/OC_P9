@@ -1,0 +1,61 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 2,
+    "passing": 2,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Nov 23 2021 20:14:59",
+    "testExecutionTimeInMs": 1245,
+    "testTotalTimeInMs": 1245,
+    "commandTimeInMs": 107,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000002uYuO",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000Thz0UAC",
+      "queueItemId": "7097Q000000sbSnQAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002uYuOQAU",
+      "methodName": "test",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000003E1CSQA0",
+        "name": "TestTriggerUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "TestTriggerUpdateAccountCA"
+      },
+      "runTime": 156,
+      "testTimestamp": "2021-11-23T19:14:59.000+0000",
+      "fullName": "TestTriggerUpdateAccountCA.test"
+    },
+    {
+      "id": "07M7Q000000Thz1UAC",
+      "queueItemId": "7097Q000000sbSnQAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002uYuOQAU",
+      "methodName": "test2",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000003E1CSQA0",
+        "name": "TestTriggerUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "TestTriggerUpdateAccountCA"
+      },
+      "runTime": 1089,
+      "testTimestamp": "2021-11-23T19:15:00.000+0000",
+      "fullName": "TestTriggerUpdateAccountCA.test2"
+    }
+  ]
+}

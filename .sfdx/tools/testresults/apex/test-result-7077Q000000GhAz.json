@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Nov 22 2021 15:34:34",
+    "testExecutionTimeInMs": 843,
+    "testTotalTimeInMs": 843,
+    "commandTimeInMs": 96,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000000GhAz",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000ThVUUA0",
+      "queueItemId": "7097Q000000sbIvQAI",
+      "stackTrace": "Class.testUpdateAllAccounts.testMethod1: line 31, column 1",
+      "message": "System.DmlException: Update failed. First exception on row 0 with id 8017Q000000bnN1QAI; first error: FAILED_ACTIVATION, Une commande doit inclure au moins un produit.: []",
+      "asyncApexJobId": "7077Q000000GhAzQAK",
+      "methodName": "testMethod1",
+      "outcome": "Fail",
+      "apexLogId": "07L7Q000000p6EuUAI",
+      "apexClass": {
+        "id": "01p7Q000003DhV3QAK",
+        "name": "testUpdateAllAccounts",
+        "namespacePrefix": null,
+        "fullName": "testUpdateAllAccounts"
+      },
+      "runTime": 843,
+      "testTimestamp": "2021-11-22T14:34:34.000+0000",
+      "fullName": "testUpdateAllAccounts.testMethod1",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Update failed. First exception on row 0 with id 8017Q000000bnN1QAI; first error: FAILED_ACTIVATION, Une commande doit inclure au moins un produit.: []",
+        "exceptionStackTrace": "Class.testUpdateAllAccounts.testMethod1: line 31, column 1",
+        "className": "testUpdateAllAccounts",
+        "compileProblem": "",
+        "lineNumber": 31,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

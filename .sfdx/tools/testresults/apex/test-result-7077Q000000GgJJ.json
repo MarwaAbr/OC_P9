@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Nov 22 2021 13:31:57",
+    "testExecutionTimeInMs": 536,
+    "testTotalTimeInMs": 536,
+    "commandTimeInMs": 96,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000000GgJJ",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000Th9TUAS",
+      "queueItemId": "7097Q000000sbH9QAI",
+      "stackTrace": "Class.testCalculMontant.test: line 20, column 1",
+      "message": "System.SObjectException: SObject row was retrieved via SOQL without querying the requested field: Order.NetAmount__c",
+      "asyncApexJobId": "7077Q000000GgJJQA0",
+      "methodName": "test",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000003DcwGQAS",
+        "name": "testCalculMontant",
+        "namespacePrefix": null,
+        "fullName": "testCalculMontant"
+      },
+      "runTime": 536,
+      "testTimestamp": "2021-11-22T12:31:58.000+0000",
+      "fullName": "testCalculMontant.test",
+      "diagnostic": {
+        "exceptionMessage": "System.SObjectException: SObject row was retrieved via SOQL without querying the requested field: Order.NetAmount__c",
+        "exceptionStackTrace": "Class.testCalculMontant.test: line 20, column 1",
+        "className": "testCalculMontant",
+        "compileProblem": "",
+        "lineNumber": 20,
+        "columnNumber": 1
+      }
+    }
+  ]
+}
