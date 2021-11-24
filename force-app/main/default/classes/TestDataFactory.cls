@@ -3,7 +3,7 @@ public with sharing class TestDataFactory {
         
 
     }
-   
+   //Création des comptes avec Commandes 
     public static List<Account> creatAccountsWithOrders(Integer numAccts, Integer numOrds){
 
         List<Account> lstAccounts= new List<Account>();
@@ -38,7 +38,7 @@ public with sharing class TestDataFactory {
         return lstAccounts;
     }
 
-
+    // Creation d'un produit avec PricebookEntry
    private static PricebookEntry creatProduct (){
     Product2 pd1 = new Product2(Name = 'Chemise Verte longue XYX', Family = 'Chemise');
     Insert pd1;

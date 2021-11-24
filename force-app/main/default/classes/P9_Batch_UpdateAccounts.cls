@@ -7,8 +7,9 @@ global class P9_Batch_UpdateAccounts implements Database.Batchable<sObject>{
    }
     
    global void execute(Database.BatchableContext info, List<Account> scope){   
-       
+       //Collection des Identifiants des comptes
     Set<Id> setAccountIds = (new Map<Id,SObject>(scope)).keySet();
+    //Appel A la méthode de mise à jour de CA sur les comptes 
     P9_SRV_Account.updateChiffreAffaire(setAccountIds);
   }    
     

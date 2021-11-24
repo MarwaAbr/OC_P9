@@ -1,8 +1,10 @@
 <apex:page controller="P9_LC_MyTeamOrdersController" >
-    <div>
+    <div> 
         <h1>
+            <!-- Affichage de la somme de toutes les commandes --> 
             Sum of my team orders: <apex:outputText value="{!SumOders}" />
         </h1>
+        <!-- Tableau Affichant les commandes -->
         <apex:pageBlock title="My Team's Orders List">
             <apex:pageBlockTable value = "{!TeamOrders}" var = "ord">
                  <apex:column value="{! ord.Id }"/>
