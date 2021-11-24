@@ -5,7 +5,7 @@ public with sharing class P9_DM_Orders extends fflib_SObjectDomain {
     }
     public class Constructor implements fflib_SObjectDomain.IConstructable {
         public fflib_SObjectDomain construct(List<SObject> sObjectList) {
-            return new Orders(sObjectList);
+            return new P9_DM_Orders(sObjectList);
         }
     }
 
@@ -27,19 +27,5 @@ public with sharing class P9_DM_Orders extends fflib_SObjectDomain {
             ord.NetAmount__c = 0;
             ord.NetAmount__c = ord.TotalAmount - ord.ShipmentCost__c;  
         }
-    }
-    public override void onValidate(Map<Id,SObject> existingRecords) {
-        // Validate changes to Orders
-        Set<Id> newList = new Set<Id>();
-        for(Order ord : (List<Order>) Records) {
-            Order existingOrd = (Order) existingRecords.get(ord.Id);
-            if(ord.Status != existingOrd.Status && ord.Status == 'Ordered') {
-             
-                newList.add(ord.AccountId);
-            }
-        }
-
-       P9_SRV_Account.updateChiffreAffaire(newList); 
-        
     }
 }

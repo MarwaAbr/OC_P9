@@ -1,0 +1,69 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 2,
+    "passing": 1,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "50%",
+    "failRate": "50%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Nov 24 2021 14:23:47",
+    "testExecutionTimeInMs": 28895,
+    "testTotalTimeInMs": 28895,
+    "commandTimeInMs": 95,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000002uiqV",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000TiPNUA0",
+      "queueItemId": "7097Q000000sbi8QAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002uiqVQAQ",
+      "methodName": "test_ExecuteBatchToUpdate_CA_200Accounts",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000003E1CPQA0",
+        "name": "P9_BatchTest_UpdateAllAccounts",
+        "namespacePrefix": null,
+        "fullName": "P9_BatchTest_UpdateAllAccounts"
+      },
+      "runTime": 9671,
+      "testTimestamp": "2021-11-24T13:23:47.000+0000",
+      "fullName": "P9_BatchTest_UpdateAllAccounts.test_ExecuteBatchToUpdate_CA_200Accounts"
+    },
+    {
+      "id": "07M7Q000000TiPOUA0",
+      "queueItemId": "7097Q000000sbi8QAA",
+      "stackTrace": "Class.P9_BatchTest_UpdateAllAccounts.test_ExecuteBatchToUpdate_CA_200Accounts_With200Orders: line 41, column 1",
+      "message": "System.DmlException: Update failed. First exception on row 0 with id 8017Q000000bsutQAA; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, UpdateAccountCA: execution of AfterUpdate\n\ncaused by: System.ListException: Duplicate id in list: 0017Q0000034qEkQAI\n\nClass.P9_SRV_Account.updateChiffreAffaire: line 27, column 1\nClass.Orders.onValidate: line 42, column 1\nClass.fflib_SObjectDomain.handleAfterUpdate: line 248, column 1\nClass.fflib_SObjectDomain.triggerHandler: line 441, column 1\nClass.fflib_SObjectDomain.triggerHandler: line 387, column 1\nTrigger.UpdateAccountCA: line 3, column 1: []",
+      "asyncApexJobId": "7077Q000002uiqVQAQ",
+      "methodName": "test_ExecuteBatchToUpdate_CA_200Accounts_With200Orders",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000003E1CPQA0",
+        "name": "P9_BatchTest_UpdateAllAccounts",
+        "namespacePrefix": null,
+        "fullName": "P9_BatchTest_UpdateAllAccounts"
+      },
+      "runTime": 19224,
+      "testTimestamp": "2021-11-24T13:23:57.000+0000",
+      "fullName": "P9_BatchTest_UpdateAllAccounts.test_ExecuteBatchToUpdate_CA_200Accounts_With200Orders",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Update failed. First exception on row 0 with id 8017Q000000bsutQAA; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, UpdateAccountCA: execution of AfterUpdate\n\ncaused by: System.ListException: Duplicate id in list: 0017Q0000034qEkQAI\n\nClass.P9_SRV_Account.updateChiffreAffaire: line 27, column 1\nClass.Orders.onValidate: line 42, column 1\nClass.fflib_SObjectDomain.handleAfterUpdate: line 248, column 1\nClass.fflib_SObjectDomain.triggerHandler: line 441, column 1\nClass.fflib_SObjectDomain.triggerHandler: line 387, column 1\nTrigger.UpdateAccountCA: line 3, column 1: []",
+        "exceptionStackTrace": "Class.P9_BatchTest_UpdateAllAccounts.test_ExecuteBatchToUpdate_CA_200Accounts_With200Orders: line 41, column 1",
+        "className": "P9_BatchTest_UpdateAllAccounts",
+        "compileProblem": "",
+        "lineNumber": 41,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

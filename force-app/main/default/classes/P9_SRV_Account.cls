@@ -9,7 +9,6 @@ public with sharing class P9_SRV_Account {
     public static void updateChiffreAffaire(Set<Id> setAccountIds){
 
         List<Account> accountsList = qrAccount.getAccounts(setAccountIds);
-        List<Account> accountsToUpdate = new List <Account> ();
         List<Order> accountOrdersList = qrOrder.getOrdersByAccountIds(setAccountIds);
        
 		for(Account ac : accountsList){
@@ -19,13 +18,14 @@ public with sharing class P9_SRV_Account {
                         if (ac.AnnualRevenue ==null){ac.AnnualRevenue = 0;}
                      
                     ac.AnnualRevenue = ac.AnnualRevenue + ord.TotalAmount;
-                    accountsToUpdate.add (ac);
+                   
                     }
                }   
-          
+              
         } 
-     update  accountsToUpdate;
-     //update myAccounts;
+     update  accountsList;
+     
+     
 
     }
 }

@@ -1,0 +1,69 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 2,
+    "passing": 1,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "50%",
+    "failRate": "50%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Nov 24 2021 10:56:30",
+    "testExecutionTimeInMs": 529,
+    "testTotalTimeInMs": 529,
+    "commandTimeInMs": 128,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000002ugJc",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000TiE5UAK",
+      "queueItemId": "7097Q000000sbcPQAQ",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002ugJcQAI",
+      "methodName": "test_UpdateOneOrderFrom100",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000003E1CSQA0",
+        "name": "TestTriggerUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "TestTriggerUpdateAccountCA"
+      },
+      "runTime": 413,
+      "testTimestamp": "2021-11-24T09:56:31.000+0000",
+      "fullName": "TestTriggerUpdateAccountCA.test_UpdateOneOrderFrom100"
+    },
+    {
+      "id": "07M7Q000000TiE6UAK",
+      "queueItemId": "7097Q000000sbcPQAQ",
+      "stackTrace": "Class.TestTriggerUpdateAccountCA.test_UpdateOrderStatus: line 23, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: 1500, Actual: 21500",
+      "asyncApexJobId": "7077Q000002ugJcQAI",
+      "methodName": "test_UpdateOrderStatus",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000003E1CSQA0",
+        "name": "TestTriggerUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "TestTriggerUpdateAccountCA"
+      },
+      "runTime": 116,
+      "testTimestamp": "2021-11-24T09:56:32.000+0000",
+      "fullName": "TestTriggerUpdateAccountCA.test_UpdateOrderStatus",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Expected: 1500, Actual: 21500",
+        "exceptionStackTrace": "Class.TestTriggerUpdateAccountCA.test_UpdateOrderStatus: line 23, column 1",
+        "className": "TestTriggerUpdateAccountCA",
+        "compileProblem": "",
+        "lineNumber": 23,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

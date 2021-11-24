@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Nov 24 2021 13:55:57",
+    "testExecutionTimeInMs": 9886,
+    "testTotalTimeInMs": 9886,
+    "commandTimeInMs": 86,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000002uiW0",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000TiLzUAK",
+      "queueItemId": "7097Q000000sbgvQAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002uiW0QAI",
+      "methodName": "test_ExecuteBatchToUpdate_CA_200Accounts",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000003E1CPQA0",
+        "name": "P9_BatchTest_UpdateAllAccounts",
+        "namespacePrefix": null,
+        "fullName": "P9_BatchTest_UpdateAllAccounts"
+      },
+      "runTime": 9886,
+      "testTimestamp": "2021-11-24T12:55:58.000+0000",
+      "fullName": "P9_BatchTest_UpdateAllAccounts.test_ExecuteBatchToUpdate_CA_200Accounts"
+    }
+  ]
+}

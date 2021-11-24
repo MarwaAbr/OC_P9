@@ -1,0 +1,99 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 4,
+    "passing": 4,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Nov 24 2021 12:16:51",
+    "testExecutionTimeInMs": 6609,
+    "testTotalTimeInMs": 6609,
+    "commandTimeInMs": 145,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000002uhZq",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000TiJ0UAK",
+      "queueItemId": "7097Q000000sbfJQAQ",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002uhZqQAI",
+      "methodName": "test_UpdateAllOrder_Status",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000003E1CSQA0",
+        "name": "TestTriggerUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "TestTriggerUpdateAccountCA"
+      },
+      "runTime": 2658,
+      "testTimestamp": "2021-11-24T11:16:51.000+0000",
+      "fullName": "TestTriggerUpdateAccountCA.test_UpdateAllOrder_Status"
+    },
+    {
+      "id": "07M7Q000000TiJ1UAK",
+      "queueItemId": "7097Q000000sbfJQAQ",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002uhZqQAI",
+      "methodName": "test_UpdateOneOrder_ShipCost_From100",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000003E1CSQA0",
+        "name": "TestTriggerUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "TestTriggerUpdateAccountCA"
+      },
+      "runTime": 1509,
+      "testTimestamp": "2021-11-24T11:16:54.000+0000",
+      "fullName": "TestTriggerUpdateAccountCA.test_UpdateOneOrder_ShipCost_From100"
+    },
+    {
+      "id": "07M7Q000000TiJ2UAK",
+      "queueItemId": "7097Q000000sbfJQAQ",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002uhZqQAI",
+      "methodName": "test_UpdateOneOrder_Status_From100",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000003E1CSQA0",
+        "name": "TestTriggerUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "TestTriggerUpdateAccountCA"
+      },
+      "runTime": 2062,
+      "testTimestamp": "2021-11-24T11:16:56.000+0000",
+      "fullName": "TestTriggerUpdateAccountCA.test_UpdateOneOrder_Status_From100"
+    },
+    {
+      "id": "07M7Q000000TiJ3UAK",
+      "queueItemId": "7097Q000000sbfJQAQ",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002uhZqQAI",
+      "methodName": "test_UpdateOrderStatus",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000003E1CSQA0",
+        "name": "TestTriggerUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "TestTriggerUpdateAccountCA"
+      },
+      "runTime": 380,
+      "testTimestamp": "2021-11-24T11:16:58.000+0000",
+      "fullName": "TestTriggerUpdateAccountCA.test_UpdateOrderStatus"
+    }
+  ]
+}

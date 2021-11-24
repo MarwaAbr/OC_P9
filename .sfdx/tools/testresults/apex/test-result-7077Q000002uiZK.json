@@ -1,0 +1,77 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 2,
+    "passing": 0,
+    "failing": 2,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Nov 24 2021 15:30:38",
+    "testExecutionTimeInMs": 1575,
+    "testTotalTimeInMs": 1575,
+    "commandTimeInMs": 117,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000002uiZK",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000TiRnUAK",
+      "queueItemId": "7097Q000000sbkdQAA",
+      "stackTrace": "Class.TestTriggerUpdateAccountCA.test_UpdateOneOrder_Status_From100: line 34, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: null, Actual: 21500",
+      "asyncApexJobId": "7077Q000002uiZKQAY",
+      "methodName": "test_UpdateOneOrder_Status_From100",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000003E1CSQA0",
+        "name": "TestTriggerUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "TestTriggerUpdateAccountCA"
+      },
+      "runTime": 1406,
+      "testTimestamp": "2021-11-24T14:30:38.000+0000",
+      "fullName": "TestTriggerUpdateAccountCA.test_UpdateOneOrder_Status_From100",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Expected: null, Actual: 21500",
+        "exceptionStackTrace": "Class.TestTriggerUpdateAccountCA.test_UpdateOneOrder_Status_From100: line 34, column 1",
+        "className": "TestTriggerUpdateAccountCA",
+        "compileProblem": "",
+        "lineNumber": 34,
+        "columnNumber": 1
+      }
+    },
+    {
+      "id": "07M7Q000000TiRoUAK",
+      "queueItemId": "7097Q000000sbkdQAA",
+      "stackTrace": "Class.TestTriggerUpdateAccountCA.test_UpdateOrderStatus: line 17, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: null, Actual: 21500",
+      "asyncApexJobId": "7077Q000002uiZKQAY",
+      "methodName": "test_UpdateOrderStatus",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000003E1CSQA0",
+        "name": "TestTriggerUpdateAccountCA",
+        "namespacePrefix": null,
+        "fullName": "TestTriggerUpdateAccountCA"
+      },
+      "runTime": 169,
+      "testTimestamp": "2021-11-24T14:30:40.000+0000",
+      "fullName": "TestTriggerUpdateAccountCA.test_UpdateOrderStatus",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Expected: null, Actual: 21500",
+        "exceptionStackTrace": "Class.TestTriggerUpdateAccountCA.test_UpdateOrderStatus: line 17, column 1",
+        "className": "TestTriggerUpdateAccountCA",
+        "compileProblem": "",
+        "lineNumber": 17,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

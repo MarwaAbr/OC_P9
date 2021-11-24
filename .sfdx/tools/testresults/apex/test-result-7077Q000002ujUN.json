@@ -1,0 +1,69 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 2,
+    "passing": 1,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "50%",
+    "failRate": "50%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Nov 24 2021 15:21:39",
+    "testExecutionTimeInMs": 32561,
+    "testTotalTimeInMs": 32561,
+    "commandTimeInMs": 100,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000002ujUN",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000TiQXUA0",
+      "queueItemId": "7097Q000000sbkEQAQ",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002ujUNQAY",
+      "methodName": "test_ExecuteBatchToUpdate_CA_200Accounts",
+      "outcome": "Pass",
+      "apexLogId": "07L7Q000000pBJOUA2",
+      "apexClass": {
+        "id": "01p7Q000003E1CPQA0",
+        "name": "P9_BatchTest_UpdateAllAccounts",
+        "namespacePrefix": null,
+        "fullName": "P9_BatchTest_UpdateAllAccounts"
+      },
+      "runTime": 8381,
+      "testTimestamp": "2021-11-24T14:21:40.000+0000",
+      "fullName": "P9_BatchTest_UpdateAllAccounts.test_ExecuteBatchToUpdate_CA_200Accounts"
+    },
+    {
+      "id": "07M7Q000000TiQYUA0",
+      "queueItemId": "7097Q000000sbkEQAQ",
+      "stackTrace": "Class.P9_SRV_Account.updateChiffreAffaire: line 27, column 1\nClass.P9_Batch_UpdateAllAccounts.execute: line 12, column 1",
+      "message": "System.ListException: Duplicate id in list: 0017Q0000034rShQAI",
+      "asyncApexJobId": "7077Q000002ujUNQAY",
+      "methodName": "test_ExecuteBatchToUpdate_CA_200Accounts_With200Orders",
+      "outcome": "Fail",
+      "apexLogId": "07L7Q000000pBJOUA2",
+      "apexClass": {
+        "id": "01p7Q000003E1CPQA0",
+        "name": "P9_BatchTest_UpdateAllAccounts",
+        "namespacePrefix": null,
+        "fullName": "P9_BatchTest_UpdateAllAccounts"
+      },
+      "runTime": 24180,
+      "testTimestamp": "2021-11-24T14:21:49.000+0000",
+      "fullName": "P9_BatchTest_UpdateAllAccounts.test_ExecuteBatchToUpdate_CA_200Accounts_With200Orders",
+      "diagnostic": {
+        "exceptionMessage": "System.ListException: Duplicate id in list: 0017Q0000034rShQAI",
+        "exceptionStackTrace": "Class.P9_SRV_Account.updateChiffreAffaire: line 27, column 1\nClass.P9_Batch_UpdateAllAccounts.execute: line 12, column 1",
+        "className": "P9_SRV_Account",
+        "compileProblem": "",
+        "lineNumber": 27,
+        "columnNumber": 1
+      }
+    }
+  ]
+}
