@@ -32,4 +32,24 @@ private class TestTriggerUpdateAccountCA {
       Account acc =[SELECT AnnualRevenue FROM Account LIMIT 1];
       System.assertEquals  (acc.AnnualRevenue, 21500);
     }
+
+    /**Test de mise à jour des 200 commandes d'un compte**/
+    @isTest  
+    static void test_Update200Order_Status(){
+      //Arrange
+      List<Account> myAccount = TestDataFactory.creatAccountsWithOrders(1, 200);
+      List <Order> ordList = [SELECT Id, Status FROM Order];
+      //Act
+      Test.startTest();
+      for (Order ord:ordList){
+       ord.Status= 'Ordered';
+      }
+      update ordList;
+     // Database.SaveResult result = Database.update (ord, false);
+      Test.stopTest();
+      //Assert
+     // System.assert (result.isSuccess());
+     System.assertEquals(1, [select count() from Account where AnnualRevenue = 4300000]);
+     System.assertEquals(200, [select count() from Order where Status = 'Ordered']);
+    }
 }

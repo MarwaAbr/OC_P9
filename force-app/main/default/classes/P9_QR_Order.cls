@@ -9,11 +9,11 @@ public with sharing class P9_QR_Order {
     }
     //Retourne la liste de commandes avec les champs Id, AccountId, TotalAmount.. Pour l'affichage
     public List<Order> getMyTeamOrders() {
-        return [SELECT Id, AccountId, TotalAmount FROM Order];
+        return [SELECT Id, AccountId, TotalAmount FROM Order WHERE Status= 'Ordered'];
     }
     //Retourne la somme des TotalAmount de toutes les commandes
     public AggregateResult getGroupedResults(){
-       return [SELECT SUM(TotalAmount) total FROM Order];
+       return [SELECT SUM(TotalAmount) total FROM Order WHERE Status = 'Ordered'];
     }
     
 }

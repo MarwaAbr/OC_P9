@@ -10,10 +10,10 @@ public with sharing class P9_SRV_Account {
 
        //Obtenir la liste de comptes à partir de "setAccountIds"
         List<Account> accountsList = qrAccount.getAccounts(setAccountIds);
-      //Obtenir la liste de commandes associées aux compte de "accountsList"
+      //Obtenir la liste de commandes associées aux compte de "accountsList" et ayants le statut 'Ordered'
         List<Order> accountOrdersList = qrOrder.getOrdersByAccountIds(setAccountIds);
        
-        //Mettre à jour C.A."AnnualRevenue" de chaque compte en additionnant le "TotalAmount" des commandes associées
+    //Mettre à jour C.A."AnnualRevenue" de chaque compte en additionnant le "TotalAmount" des commandes associées
 		for(Account ac : accountsList){
             ac.AnnualRevenue =0;
                for (Order ord : accountOrdersList ) {
