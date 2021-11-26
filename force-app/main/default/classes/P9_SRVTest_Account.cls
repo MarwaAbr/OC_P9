@@ -1,6 +1,5 @@
 @isTest
 private class P9_SRVTest_Account {
-
     @TestSetup //données de test
     static void makeData(){
         List<Account> list1Acc = TestDataFactory.creatAccountsWithOrders(1, 1);
@@ -16,9 +15,7 @@ private class P9_SRVTest_Account {
     setAccountId.add (acc.Id);
     //Act
     Test.startTest();
-
     P9_SRV_Account.updateChiffreAffaire(setAccountId);
-
     Test.stopTest();
     //Assert
     Account acc1 = [SELECT AnnualRevenue FROM Account LIMIT 1];

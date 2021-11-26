@@ -1,0 +1,61 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 2,
+    "passing": 2,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Nov 25 2021 23:25:12",
+    "testExecutionTimeInMs": 2251,
+    "testTotalTimeInMs": 2251,
+    "commandTimeInMs": 122,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000002uzY6",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000TidKUAS",
+      "queueItemId": "7097Q000000sbuUQAQ",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002uzY6QAI",
+      "methodName": "test_UpdateNetAmount",
+      "outcome": "Pass",
+      "apexLogId": "07L7Q000000pE6BUAU",
+      "apexClass": {
+        "id": "01p7Q000003E1CRQA0",
+        "name": "TestTriggerCalculMontant",
+        "namespacePrefix": null,
+        "fullName": "TestTriggerCalculMontant"
+      },
+      "runTime": 615,
+      "testTimestamp": "2021-11-25T22:25:12.000+0000",
+      "fullName": "TestTriggerCalculMontant.test_UpdateNetAmount"
+    },
+    {
+      "id": "07M7Q000000TidLUAS",
+      "queueItemId": "7097Q000000sbuUQAQ",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002uzY6QAI",
+      "methodName": "test_UpdateOneOrder_ShipCost_From100",
+      "outcome": "Pass",
+      "apexLogId": "07L7Q000000pE6BUAU",
+      "apexClass": {
+        "id": "01p7Q000003E1CRQA0",
+        "name": "TestTriggerCalculMontant",
+        "namespacePrefix": null,
+        "fullName": "TestTriggerCalculMontant"
+      },
+      "runTime": 1636,
+      "testTimestamp": "2021-11-25T22:25:14.000+0000",
+      "fullName": "TestTriggerCalculMontant.test_UpdateOneOrder_ShipCost_From100"
+    }
+  ]
+}

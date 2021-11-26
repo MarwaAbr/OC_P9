@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Nov 26 2021 09:58:26",
+    "testExecutionTimeInMs": 42,
+    "testTotalTimeInMs": 42,
+    "commandTimeInMs": 105,
+    "hostname": "https://resourceful-koala-fluhag-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q000000KSrkUAG",
+    "username": "marwa-majdoub@resourceful-koala-fluhag.com",
+    "testRunId": "7077Q000002v4aq",
+    "userId": "0057Q000000qWuAQAU"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000Tig7UAC",
+      "queueItemId": "7097Q000000sbv8QAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q000002v4aqQAA",
+      "methodName": "test_updateChiffreAffaire",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q000003E1CQQA0",
+        "name": "P9_SRVTest_Account",
+        "namespacePrefix": null,
+        "fullName": "P9_SRVTest_Account"
+      },
+      "runTime": 42,
+      "testTimestamp": "2021-11-26T08:58:27.000+0000",
+      "fullName": "P9_SRVTest_Account.test_updateChiffreAffaire"
+    }
+  ]
+}

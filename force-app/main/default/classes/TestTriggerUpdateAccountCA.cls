@@ -1,13 +1,11 @@
 @isTest
 private class TestTriggerUpdateAccountCA {
-
-    // Test de mise à jour de CA après la mise à jour du statut de la commande
+    /**  Test de mise à jour de CA après la mise à jour du statut de la commande**/
     @isTest 
     static void test_UpdateOrderStatus() {
       //Arrange
       List<Account> myAccount = TestDataFactory.creatAccountsWithOrders(1, 1);
-       
-        Order ord = [SELECT Status FROM Order LIMIT 1];
+      Order ord = [SELECT Status FROM Order LIMIT 1];
       //Act
         Test.startTest();
         ord.Status = 'Ordered';
@@ -17,13 +15,11 @@ private class TestTriggerUpdateAccountCA {
         Account ac = [SELECT AnnualRevenue FROM Account LIMIT 1];
         System.assertEquals(ac.AnnualRevenue, 21500);
     }
-
-    //Test de mise à jour d'une commande d'un compte ayant 100 commandes
+    /**Test de mise à jour d'une commande d'un compte ayant 100 commandes**/
     @isTest  
     static void test_UpdateOneOrder_Status_From100(){
       //Arrange
       List<Account> myAccount = TestDataFactory.creatAccountsWithOrders(1, 100);
-
       Order ord = [SELECT Id, Status FROM Order LIMIT 1];
       //Act
       Test.startTest();
@@ -36,5 +32,4 @@ private class TestTriggerUpdateAccountCA {
       Account acc =[SELECT AnnualRevenue FROM Account LIMIT 1];
       System.assertEquals  (acc.AnnualRevenue, 21500);
     }
-
 }

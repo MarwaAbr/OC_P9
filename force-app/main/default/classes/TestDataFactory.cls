@@ -1,11 +1,8 @@
 public with sharing class TestDataFactory {
     public TestDataFactory() {
-        
-
     }
    //Création des comptes avec Commandes 
     public static List<Account> creatAccountsWithOrders(Integer numAccts, Integer numOrds){
-
         List<Account> lstAccounts= new List<Account>();
         for(Integer i=0 ;i <numAccts;i++)
         {
@@ -14,9 +11,7 @@ public with sharing class TestDataFactory {
             lstAccounts.add(acc);
         }
         insert lstAccounts;
-
         PricebookEntry pbe = creatProduct ();
-
         List<Order> lstOrders = new List<Order>();
         for (Account act : lstAccounts){
             for(Integer j=0; j< numOrds; j++){
@@ -25,7 +20,6 @@ public with sharing class TestDataFactory {
             }
         }
         insert lstOrders;
-
         List<OrderItem> lstOrdItems = new List<OrderItem>();
         for (Order ord: lstOrders) {
             OrderItem oi1 = new OrderItem (OrderId = ord.Id, PricebookEntryId = pbe.Id, Quantity=10, UnitPrice = 150);
@@ -34,7 +28,6 @@ public with sharing class TestDataFactory {
             lstOrdItems.add(oi2); 
         }
         insert lstOrdItems;
-
         return lstAccounts;
     }
 

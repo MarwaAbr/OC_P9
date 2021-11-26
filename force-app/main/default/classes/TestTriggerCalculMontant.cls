@@ -1,6 +1,5 @@
 @isTest
 private class TestTriggerCalculMontant {
-    
     // Test du calcul de NetAmount d'une commande mise à jour
     @isTest
     static void test_UpdateNetAmount() {
@@ -16,7 +15,6 @@ private class TestTriggerCalculMontant {
         Order ord1 = [SELECT NetAmount__c FROM Order LIMIT 1]; 
         System.assertEquals(ord1.NetAmount__c, 21300);
     }
-
     //Test de mise à jour de ShipmentCost sur une commande d'un compte ayant 100 commandes
     @isTest  
     static void test_UpdateOneOrder_ShipCost_From100(){

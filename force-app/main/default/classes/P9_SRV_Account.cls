@@ -4,8 +4,8 @@ public with sharing class P9_SRV_Account {
     private static P9_QR_Order qrOrder = new P9_QR_Order ();
 
     public P9_SRV_Account() {
-
     }
+    
     public static void updateChiffreAffaire(Set<Id> setAccountIds){
 
        //Obtenir la liste de comptes à partir de "setAccountIds"
@@ -19,17 +19,11 @@ public with sharing class P9_SRV_Account {
                for (Order ord : accountOrdersList ) {
                     if (ac.Id == ord.AccountId){
                         if (ac.AnnualRevenue ==null){ac.AnnualRevenue = 0;}
-                     
                     ac.AnnualRevenue = ac.AnnualRevenue + ord.TotalAmount;
-                   
                     }
-               }   
-              
+               }       
         } 
      update  accountsList;
-     
-     
-
     }
 }
            
